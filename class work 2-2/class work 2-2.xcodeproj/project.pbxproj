@@ -11,6 +11,7 @@
 		0461DC7A28F734F70071AD6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461DC7928F734F70071AD6E /* ContentView.swift */; };
 		0461DC7C28F734F80071AD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461DC7B28F734F80071AD6E /* Assets.xcassets */; };
 		0461DC7F28F734F80071AD6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461DC7E28F734F80071AD6E /* Preview Assets.xcassets */; };
+		046B514028F9897900C0D71D /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046B513F28F9897900C0D71D /* Oswald-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		0461DC7928F734F70071AD6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0461DC7B28F734F80071AD6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0461DC7E28F734F80071AD6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		046B513F28F9897900C0D71D /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		046B514128F98CCB00C0D71D /* class-work-2-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "class-work-2-2-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		0461DC7628F734F70071AD6E /* class work 2-2 */ = {
 			isa = PBXGroup;
 			children = (
+				046B514128F98CCB00C0D71D /* class-work-2-2-Info.plist */,
+				046B513E28F9893000C0D71D /* Fonts */,
 				0461DC7728F734F70071AD6E /* class_work_2_2App.swift */,
 				0461DC7928F734F70071AD6E /* ContentView.swift */,
 				0461DC7B28F734F80071AD6E /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				0461DC7E28F734F80071AD6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		046B513E28F9893000C0D71D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				046B513F28F9897900C0D71D /* Oswald-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			files = (
 				0461DC7F28F734F80071AD6E /* Preview Assets.xcassets in Resources */,
 				0461DC7C28F734F80071AD6E /* Assets.xcassets in Resources */,
+				046B514028F9897900C0D71D /* Oswald-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"class work 2-2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "class-work-2-2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"class work 2-2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "class-work-2-2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

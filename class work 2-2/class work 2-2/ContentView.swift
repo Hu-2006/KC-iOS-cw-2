@@ -21,8 +21,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Text("العاصمة")
-                        .font(.system(size: 30,weight: .bold,design: .monospaced))
-                   
+                        .font(.custom("Oswald-VariableFont_wght", size: 25))
                         Spacer()
                         Image(systemName:"gearshape.fill")
                     
@@ -33,7 +32,7 @@ struct ContentView: View {
                 .padding()
                 HStack{
                     Text("16:15")
-                        .font(.system(size: 60))
+                        .font(.system(size: 70))
                     
                     Text("14")
                         .padding(.top,50)
@@ -41,8 +40,7 @@ struct ContentView: View {
                 }   .padding(.all,60)
                 
                 Text("باقي على الاذان")
-                    .font(.system(size: 30,weight: .bold,design: .monospaced))
-                
+                    .font(.custom("Oswald-VariableFont_wght", size: 25))
                
                     
                 VStack{
@@ -51,16 +49,14 @@ struct ContentView: View {
                     
                     Spacer()
                     Text("٢٠ رجب")
-                        .font(.system(size: 30,weight: .bold,design: .monospaced))
-                    
+                        .font(.custom("Oswald-VariableFont_wght", size: 25))
                     Spacer()
                     
                     Text("-")
-                        .font(.system(size: 30,weight: .bold,design: .monospaced))
-                    Spacer()
+                        .font(.custom("Oswald-VariableFont_wght", size: 25))
                     
                     Text("٢١ فبراير")
-                        .font(.system(size: 30,weight: .bold,design: .monospaced))
+                        .font(.custom("Oswald-VariableFont_wght", size: 25))
                         
                     Spacer()
                     Text(">")
@@ -103,7 +99,7 @@ struct ContentView: View {
                     
                         
                 }.background(Color.white.opacity(0.6))
-                    .font(.system(size: 20,weight: .bold,design: .monospaced))
+                    .font(.custom("Oswald-VariableFont_wght", size: 25))
             } .foregroundColor(Color.black)
             
             
